@@ -12,18 +12,28 @@ body{
 }
 .container{
     width: 80%;
-    margin: 2rem auto;
+    margin: 6rem auto;
 }
 header{
     display: flex;
+    flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    gap: 3rem;
+    
 }
 ul{
+background: hsl(240, 100%, 5%);
     display: flex;
     gap: 3rem;
     list-style: none;
+    flex-direction: column;
+    align-items: center;
+    padding: 2rem auto;
+    width: 100%;
+    
 }
+
 /* unvisited link */
 a:link {
     color:hsl(236, 13%, 42%);
@@ -43,6 +53,141 @@ a:link {
   a:active {
     color:hsl(236, 13%, 42%);
   }
-  ul li a{
+   a{
     text-decoration: none;
   }
+
+  /*front page styling*/
+ .flex{
+  display: flex;
+  gap: 1%;
+  margin: 2rem auto;
+ }
+ .front-image{
+  width: 95%;
+ }
+ .front-image img{
+  width: 100%;
+ }
+ /* this is the start of my new */
+ .sharp{
+  background: hsl(240, 100%, 5%);
+  color: hsl(36, 100%, 99%);
+  width: 35%;
+  padding: 1.5rem;
+  display: grid;
+  align-items: start;
+  border-bottom: 3rem;
+ }
+ .sharp h1{
+  font-size: xx-large;
+  font-weight:600 ;
+ }
+ .sharp h1 a{
+  font-size:large;
+  font-weight: 400;
+  color: hsl(36, 100%, 99%);
+  border-bottom: 3rem;
+ }
+ .sharp p{
+  color:hsl(236, 13%, 42%); ;
+ }
+ .sharp h1 a:hover{
+  cursor: pointer;
+  color: hsl(35, 77%, 62%);
+ }
+.bottom-border{
+  border: 2px hsl(36, 100%, 99%);
+  border-bottom-left: 25px;
+
+}
+
+ .bright-container{
+  display: flex;
+  gap: 1rem;
+ }
+ .bright-container h1{
+  width:80% ;
+  font-size: 3rem;
+  font-weight: 900;
+  margin-top: 1rem;
+ }
+ .bright-content{
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: space-between;
+ }
+ .bright-content p{
+  color:  hsl(236, 13%, 42%);
+  margin: 1rem;
+ }
+ button{
+  background-color:  hsl(5, 85%, 63%);
+  color: hsl(36, 100%, 99%);
+  border: none;
+  padding: 1rem 2rem; 
+ }
+ button:hover{
+  cursor: pointer;
+  background: hsl(240, 100%, 5%);
+ }
+.sharp  h1{
+  color:  hsl(35, 77%, 62%);
+ }
+.asset{
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  gap: 2rem;
+  justify-content: space-between;
+}
+.first{
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+}
+.number{
+  font-size: 16rem;
+}
+  
+
+.second{
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+}
+.third{
+  display: flex;
+  align-items: end;
+  gap: 1rem;
+}
+.asset h1{
+  font-size: 1.5rem;
+  gap: 1rem;
+}
+.asset p{
+  color: hsl(236, 13%, 42%);
+  cursor: pointer;
+}
+.asset h1:hover{
+  cursor: pointer;
+  color: hsl(35, 77%, 62%);
+}
+  .first img{
+    height: 60%; 
+  }
+  .second img{
+    height: 60%; 
+  }
+  .third img{
+    height: 60%; 
+  }
+ 
+  
+
+  
+ 
+  
+ 
